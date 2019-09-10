@@ -1,0 +1,24 @@
+1) Wygeneruj tablice znaków A-Z.
+
+2) Stwórz macierz(tablice) o wymiarach NxN która beddzie wygladala w nastepujacy spsób dla N == 5
+    X___X
+    _X_X_
+    __X__
+    _X_X_
+    X___X
+
+3) Sprawdz czy napis S1 zawiera dokladnie te same litery co S2 (ta sama częstotliwość)
+
+4) Dla podanego bardzo dlugiego napisu, policz czestostliwość występowania poszczególnych liter.
+
+5) Sprawdz czy dana liczba jest pierwsza.
+
+6) Rozłóż liczbę na czynniki pierwsze.
+
+7) Odwróć tablice jedno wymiarową.
+
+8) Odwróc tablice dwu wymiarowa (wartość znajdująca się na pozycji (x, y) powinna znalezdz sie na pozycji (y, x))
+    A) Latwe rozwiazanie: korzystając z tablicy pomocniczej
+    B) Trudniejsze rozwiązanie: nie korzystając z tablicy pomocniczej
+
+9) Podnies liczbe a do potegi b
