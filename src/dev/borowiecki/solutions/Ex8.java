@@ -14,8 +14,8 @@ public class Ex8 {
         };
 
         final int L = array.length;
-        for(int i = 0; i < L/2;i++) {
-            for (int j = 0; j < L; j++) {
+        for(int i = 0; i < L;i++) {
+            for (int j = i; j < L; j++) {
                 System.out.println(String.format("Swap %d %d", i, j));
                 int temp = array[i][j];
                 System.out.println(String.format("%d %d", array[i][j], array[j][i]));
