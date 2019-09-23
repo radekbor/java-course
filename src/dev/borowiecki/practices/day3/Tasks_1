@@ -1,0 +1,22 @@
+
+
+
+Ex1 - phonecompany
+- Stworz interface PhoneNumber
+    - z metodą currentMonthBill
+    - z metodą callTo(PhoneNumber, int) - gdzie int to czas rozmowy
+
+- Stowrz klase LandingPhoneNumber ktora jest PhoneNumber
+    - za kazda rozmowe na inny telefon stacjonarny
+    powinnismy byc "kasowani" wg wzoru czas * 1
+    - za kazda rozmowe na telefon mobilny
+    powinnismy byc "kasowani" wg wzoru czas * 2
+
+- Stworz klase MobilePhoneNumber ktora jest PhoneNumber
+    - za kazda rozmowe na telefon stacjonarny
+    powinnismy byc "kasowani" wg wzoru czas * 2
+    - za kazda rozmowe na telefon mobilny
+    powinnismy byc "kasowani" wg wzoru czas * 0.5
+
+- Stworz kilka rożnych obiektów
+- wykonaj pare razy callTo a potem sprawdz rachunki

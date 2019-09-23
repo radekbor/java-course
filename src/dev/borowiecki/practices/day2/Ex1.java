@@ -1,6 +1,4 @@
-package dev.borowiecki.rev.day2;
-
-import sun.util.resources.cldr.ar.CalendarData_ar_YE;
+package dev.borowiecki.practices.day2;
 
 import java.util.Arrays;
 

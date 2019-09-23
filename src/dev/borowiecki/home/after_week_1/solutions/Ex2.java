@@ -1,4 +1,4 @@
-package dev.borowiecki.solutions;
+package dev.borowiecki.home.after_week_1.solutions;
 
 public class Ex2 {
 

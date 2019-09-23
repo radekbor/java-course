@@ -1,0 +1,88 @@
+1) Stwórz paczke tasks2.zoo
+
+- Stwórz klase Pet
+    - w klasie pet zdefiniuj pole final name
+    - pole name powinno byc przypisawane w konstruktorze
+    - Chcemy uniemozliwic tworzenie obiektu typu Pet
+    poprzez ustawienie modyfikatora dostepu na protected
+    (dla konstruktora)
+    - dodaj metode speak ktora powinna byc pusta
+
+
+
+
+- Stwórz klase Dog która rozszerza Pet
+    - nadpisz metode speak
+- Stwórz klase Cat która rozszerza Pet
+    - nadpisz metode speak
+
+
+
+
+- Stwórz interface ShowAnimal z metoda showPose()
+
+- Stworz klase ShowDog ktora rozszerza Dog oraz implemetuje ShowAnimal
+- Stworz klase ShowCat ktora rozszerza Cat oraz implemetuje ShowAnimal
+
+
+
+- Stowrz klase PetOwner
+    - ktory ma metode play o arguemencie Pet
+
+
+        - metoda ta bedzie wywolywac metode
+            - Wykonaj metode speak
+            - jest zwierzakiem wystawowym jesli
+            tak to wykonaj metode showPose
+
+
+
+- Testowanie
+    - Plik Play/Test z mainem
+    - Stworz psaWystawoego(ShowDog): "Pixel" ktory
+    jest przypisanym do zmiennej typu Dog
+    - Stworz wlasciciela ktory pobawi sie ze swoim zwierzakiem
+    (wykona metode play z wlasciwym argumentem)
+
+
+2) Stworz paczke tasks2.city
+
+- Stworz klase Location
+    - dodaj pola final:
+        - street
+        - number
+
+- Stworz Interface Owner
+    - Dodaj metode boolean askForTax(Double tax) ktora zwraca true gdy sie udalo zapalacic
+- Stworz klase Company ktora implementuje Owner
+- Stworz klase LandLord ktora implementuje Owner
+- Stworz interface Building
+    - z polem myLocation
+    - z metodą setMyOwner - która przyjmuje owner jako argument
+    - z metoda getMyOwner - ktora zwraca Owner jako typ
+    - z metoda area - ktora zwraca long
+    - z metoda height - ktora zwraca long
+
+- Stworz klase Tower ktora implementuje Building
+- Stworz klase CottageHouse ktora implementuje Building
+
+- Stworz klasę TaxMan
+    - Dodaj metode getTax - ktora przyjmuje Building jako argument i wyowuje
+        - metode askForTax na "ownerze danego budynku",
+        - z metoda taxRation(Building) -
+            1 dla Tower
+            0.5 dla CottageHouse
+            0.2 w pozostałych przypadkach
+        - taxMan powinien obliczyc tax na podstawie wzoru
+            area * height *  taxRation
+
+
+- Testowanie stworz
+    - 3 budynki
+    - Stworz taxMana i pobierz podatek od kazdeg budynku.
+
+
+
+
+
+

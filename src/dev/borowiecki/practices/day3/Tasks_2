@@ -1,0 +1,33 @@
+Ex2 - bank
+
+
+
+- Stworz klase abstrakcyjna BankAccount
+
+       (wszystkie pola sa prywatne)
+    - z polem saldo
+    - z polem maxDebit
+
+    - Pole maxDebit na starcie ustawione przez konstruktor
+    - saldo = 0;
+
+    - z metoda withdraw(int)
+    - z metoda deposit(int)
+    - z metodą prywatną receive(int)
+    - z metoda abstrakcyjna transferCost(BankAccount other)
+        - ktora zwraca int
+    - z metoda transferTo(bankAccount, int)
+        - ktora wywoluje metoda do przyjmowania srodków dla podanego konta
+        - i odejmuje od salda wartosc transferu oraz kwote za przelew
+
+- Stwórz klase PrivateBankAccount
+    - z polem long companyId
+    - zaimplementuje transferCost(BankAccount other) ktora
+        - zwraca 0 gdy other jest typu PrivateBankAccount oraz
+        companyId == this.companyId
+        - w przeciwnym przypadku 1
+- Stwórz klase CompanyBankAccount
+    - z polem long companyId
+        - zwraca 0 gdy other jest typu CompanyBankAccount oraz
+        companyId == this.companyId
+        - w przeciwnym przypadku 2

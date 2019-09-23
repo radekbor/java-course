@@ -1,4 +1,4 @@
-package dev.borowiecki.rev.day2;
+package dev.borowiecki.practices.day2;
 
 import java.util.Arrays;
 

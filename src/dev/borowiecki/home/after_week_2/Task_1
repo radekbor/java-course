@@ -1,0 +1,29 @@
+Ex 1 - Library
+
+
+- Stworz abstrakcyjna klase Item
+    - ze stalym polem name
+    - ze stalym polem author
+    - ze stalym poltem id
+- Stworz klase Book bedaca Item'em
+    - z polem pages
+    - z polem typeCover badacy enumem
+        - Hard
+        - Softcover
+- Stworz klase Moive
+    - z polem mediaType bedacy enumem
+        - CD
+        - DVD
+        - VHS
+- Stworz klase klient ktory moze wypozyczać Itemy z
+    - klient powinien miec imie oraz nazwisko
+    - klient moze maksymalnie wypozyczyc 3 itemy (skorzystaj z tablicy!)
+    - klient moze zwrocic item
+
+Testowanie:
+- Stworz 10 itemow.
+- Stworz klienta
+- Niech klient 3 itemy
+- Niech klient sproboje wypozyczyc item
+- Niech klient odda wszystkie itemy
+- Niech klient wypozyczy jakis item
