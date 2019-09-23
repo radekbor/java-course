@@ -1,0 +1,25 @@
+SubTask 1)
+
+Stworz tablice liczb 10 (wraz z wartosciami)
+- Policz sume i srednia
+    - Calej tablicy
+    - Osobno dla liczb parzystych i dla liczb nie parzystych
+
+SubTask 2)
+
+    - Stworz tablice 5 liczb (wraz z wartosciami) i nazwij zmienna "tab"
+    - "Zwieksz" tablice do 10 liczb
+     (tablicy nie mozemy rozszerzyc ale mozemy stworzyc nowa i przekopowioac wartosci)
+
+    - pod zmienna "tab" powinna znajdowac sie 10 elementowa tablica
+
+
+SubTask 3)
+    - Stworz klase Student z polami
+        - plec F/M - enum
+        - oraz wiek - int
+    - Stworz tablice o rozmiarze 10elementow
+        - na dowolnych pozycjach dodaj lacznie 6 studentow
+    - Stworz funkcje ktora dla podanej tablicy i arguementu plec
+        - zwroci sredni wiek dla studentow danej płci
+    ! uwazaj na NullPointerException

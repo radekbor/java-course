@@ -1,0 +1,18 @@
+Ex 2 - company
+
+    - W firmie mamy różnych Pracowników(employee)
+
+    - OfficeWorker
+    - Manager
+        - Mendazer moze miec maksymalnie 5 pracowników ktorymi kieruje
+        - mendazer moze kierowac innymi mendazerami
+
+    - Stworz potrzebne klasy wraz z funkcjami
+
+    - A nastepnie w metodzie main stworz ponizsza hierarchie
+    Cris (Manager)
+        - Tom(Manager)
+            - Emmily(OfficeWorker)
+            - Mark(OfficeWorker)
+        - Joe(OfficeWorker)
+        - Billy(OfficeWorker)
