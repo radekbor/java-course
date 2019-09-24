@@ -1,0 +1,18 @@
+Ex queue - troche wyzszy poziom
+
+Zaimplementuj kolejke do obslugi wiadomosci.
+
+class Message {
+    final String text;
+    // Konstruktor
+
+}
+
+Czym jest kolejka lub do czego sluzy?
+Do kolejki dodajemy elementy oraz pobieramy w kolejnosci w jakiej dodalismy
+
+Wymagania
+metoda - addNext
+metoda getNext
+konstrukor ktory przyjmie liczbe rozmiar kolejki.
+
