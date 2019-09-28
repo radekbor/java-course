@@ -4,7 +4,7 @@ Ex 1 - Library
 - Stworz abstrakcyjna klase Item
     - ze stalym polem name
     - ze stalym polem author
-    - ze stalym poltem id
+    - ze stalym polem id
 - Stworz klase Book bedaca Item'em
     - z polem pages
     - z polem typeCover badacy enumem
