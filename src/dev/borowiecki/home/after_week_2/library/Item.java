@@ -1,6 +1,6 @@
 package dev.borowiecki.home.after_week_2.library;
 
-public class Item {
+public abstract class Item {
 
     public final String id;
     public final String name;

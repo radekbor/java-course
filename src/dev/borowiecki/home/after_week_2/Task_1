@@ -1,6 +1,8 @@
 Ex 1 - Library
 
 
+
+
 - Stworz abstrakcyjna klase Item
     - ze stalym polem name
     - ze stalym polem author
@@ -17,7 +19,8 @@ Ex 1 - Library
         - VHS
 - Stworz klase klient ktory moze wypozyczać Itemy z
     - klient powinien miec imie oraz nazwisko
-    - klient moze maksymalnie wypozyczyc 3 itemy (skorzystaj z tablicy!)
+    - klient moze maksymalnie wypozyczyc 3 itemy
+    (skorzystaj z tablicy!)
     - klient moze zwrocic item
 
 Testowanie:
