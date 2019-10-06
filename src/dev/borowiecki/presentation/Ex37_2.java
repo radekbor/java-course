@@ -4,7 +4,7 @@ import java.util.Comparator;
 import java.util.Map;
 import java.util.TreeMap;
 
-public class Ex38_2 {
+public class Ex37_2 {
     public static void main(String[] args) {
         Map<Student, Integer> mathMark = new TreeMap<>();
 
